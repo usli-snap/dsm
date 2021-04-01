@@ -94,7 +94,6 @@
     #menu {
         font-family: 'Roboto', 'Syne Mono', monospace;
         font-size: 14px;
-        color: #fff;
         letter-spacing: 2px;
         margin-right: 150px;
         margin-top: 20px;
@@ -106,6 +105,14 @@
     #menu ul li {
         display: inline-block;
         margin-left: 100px;
+    }
+    #menu ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    #menu ul li a:hover {
+        color: #fff;
+        text-decoration: underline;
     }
     @keyframes anim4 {
         from {
