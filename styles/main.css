@@ -81,15 +81,6 @@
         top: -100%;
         animation: anim4 2s forwards 2.5s;
     }
-    @keyframes anim4 {
-        from {
-            top: -100%;
-        }
-        to {
-            top: 0%;
-        }
-    }
-
     #logo {
         float: left;
         margin-left: 100px;
@@ -113,4 +104,12 @@
     #menu ul li {
         display: inline-block;
         margin-left: 100px;
+    }
+    @keyframes anim4 {
+        from {
+            top: -100%;
+        }
+        to {
+            top: 0%;
+        }
     }
