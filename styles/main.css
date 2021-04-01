@@ -83,10 +83,10 @@
     }
     @keyframes anim4 {
         from {
-            left: -100%;
+            top: -100%;
         }
         to {
-            left: 0%;
+            top: 0%;
         }
     }
 
